@@ -1,0 +1,38 @@
+td, th {
+    border: 1px solid #777;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#dom-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-buttons {
+    display: flex;
+}
+
+.table-buttons button {
+    margin: 10px 5px 10px 10px;
+    font-size: 15px;
+    width: 120px;
+}
+
+.odd-row-class {
+    background-color: whitesmoke;
+}
+
+.even-row-class {
+    background-color: wheat;
+}
+
+
+#dom ol {
+    list-style-type: lower-alpha;
+}

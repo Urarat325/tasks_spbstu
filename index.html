@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,
+user-scalable=no">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/pic.css" rel="stylesheet">
+    <link href="css/logo.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <title>Web development course</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <span>Вы недооцениваете мощь разработчика, когда наступает дедлайн</span>
+        <div class=logo>
+            <img src="img/46fd05d41b4c9fcc7275f31c30e36ffca51fe95f_full.jpg">
+        </div>
+        <nav>
+            <ul class="nav-items">
+                <li class="nav-item dropdown">
+                    <button class="dropbtn">Tasks</button>
+                    <div class="dropdown-content">
+                        <a href="#picture-task">Picture</a>
+                        <a href="flexbox.html#animation-task">Flex task</a>
+                        <a href="#dom-task">DOM</a>
+                        <a href="dragAndDrop.html">Drag and Drop</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="https://dl.spbstu.ru/course/view.php?id=3490">Course</a></li>
+                <li class="nav-item"><a href="https://github.com/Urarat325">GitHub</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="content">
+        <div class="task" id="dom-task">
+            <ol id="dom">
+            </ol>
+            <button class="create_row" onclick="addTableRow()">Create row</button>
+        </div>
+        <div id="picture-task" class="bird task">
+            <div class="bird-body">
+                <div class="bird-right-eye"></div>
+                <div class="bird-left-eye"></div>
+                <div class="bird-nose"></div>
+            </div>
+            <div class="bird-hair"></div>
+            <div class="bird-hair" style="left: 44%"></div>
+            <div class="bird-hair" style="left: 48%"></div>
+            <div class="bird-left-arm"></div>
+            <div class="bird-right-arm"></div>
+            <div class="bird-right-leg"></div>
+            <div class="bird-left-leg"></div>
+            <div class="bird-left-leg-inner"></div>
+            <div class="bird-left-leg-inner" style="left: 36%"></div>
+            <div class="bird-right-leg-inner"></div>
+            <div class="bird-right-leg-inner" style="left: 53%"></div>
+        </div>
+    </div>
+</main>
+<footer>
+    <ul class="footer-nav-items">
+        <li class="footer-nav-item">Ну привет =D</li>
+        <li class="footer-nav-item">Я без понятия, что сюда добавить</li>
+    </ul>
+</footer>
+</body>
+<script type="text/javascript" src="scripts/table.js"></script>
+</html>

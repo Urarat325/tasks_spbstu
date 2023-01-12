@@ -1,0 +1,142 @@
+.bird {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+
+.bird * {
+    position: absolute;
+}
+
+.bird-body {
+    top: 20%;
+    left: 30%;
+    width: 70px;
+    height: 110px;
+    background: radial-gradient(circle at 50% 70%, whitesmoke 10%, lightskyblue 50%);
+    border-radius: 50%;
+    z-index: 3;
+}
+
+
+.bird-right-eye {
+    top: 15%;
+    left: 30%;
+    width: 10px;
+    height: 20px;
+    background: radial-gradient(ellipse at 0%, lightskyblue 30%, whitesmoke 50%);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.bird-left-eye {
+    top: 15%;
+    left: 55%;
+    width: 10px;
+    height: 20px;
+    background: radial-gradient(ellipse at 0%, lightskyblue 30%, whitesmoke 50%);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.bird-nose {
+    width: 0;
+    height: 0;
+    top: 35%;
+    left: 45%;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: rgb(3, 173, 252) transparent transparent transparent;
+    z-index: 1;
+}
+
+.bird-hair {
+    width: 0;
+    height: 0;
+    top: 11%;
+    left: 40%;
+    border-left: 11px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 24px solid lightskyblue;
+    z-index: 2;
+}
+
+.bird-left-arm {
+    top: 35%;
+    left: 23%;
+    width: 18px;
+    height: 50px;
+    background: linear-gradient(-90deg, lightskyblue 20%, whitesmoke 100%);
+    border-radius: 50%;
+    z-index: 1;
+    transform: rotate(15deg);
+}
+
+.bird-right-arm {
+    top: 35%;
+    left: 63%;
+    width: 18px;
+    height: 50px;
+    background: linear-gradient(90deg, lightskyblue 20%, whitesmoke 100%);
+    border-radius: 50%;
+    z-index: 1;
+    transform: rotate(-15deg);
+}
+
+
+.bird-left-leg {
+    width: 7px;
+    height: 30px;
+    top: 70%;
+    left: 50%;
+    background: linear-gradient(
+            270deg,
+            black,
+            black 50%,
+            transparent 10%,
+            transparent 100%
+    );
+    z-index: 2;
+}
+
+.bird-left-leg-inner {
+    width: 10px;
+    height: 10px;
+    top: 76%;
+    left: 46%;
+    border-bottom: 3px solid black;
+    transform: rotate(-45deg);
+    transform-origin: right;
+    z-index: 2;
+}
+
+.bird-right-leg {
+    width: 7px;
+    height: 30px;
+    top: 70%;
+    left: 40%;
+    background: linear-gradient(
+            270deg,
+            black,
+            black 50%,
+            transparent 10%,
+            transparent 100%
+    );
+    z-index: 2;
+}
+
+.bird-right-leg-inner {
+    width: 10px;
+    height: 10px;
+    top: 79.6%;
+    left: 43%;
+    border-bottom: 3px solid black;
+    transform: rotate(45deg);
+    transform-origin: right;
+    z-index: 2;
+}
+
+
+
